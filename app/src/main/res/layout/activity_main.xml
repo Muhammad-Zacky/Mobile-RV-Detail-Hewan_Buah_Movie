@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="6dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/pil1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List dan RV Hewan"
+        android:textSize="18sp"
+        android:background="#FFFFFF"
+        android:textColor="#123456"
+        android:padding="16dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/pil2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recycle View Buah"
+        android:textSize="18sp"
+        android:background="#FFFFFF"
+        android:textColor="#123456"
+        android:padding="16dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/pil3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recycle View Movie"
+        android:textSize="18sp"
+        android:background="#FFFFFF"
+        android:textColor="#123456"
+        android:padding="16dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>
